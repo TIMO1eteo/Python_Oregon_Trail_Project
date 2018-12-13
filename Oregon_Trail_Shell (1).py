@@ -4,7 +4,7 @@
 #
 # 
 #   Author(s)
-#       { PUT YOUR NAME(S) HERE }
+#       { Angelica Idoko }
 #
 #   -------------------------------------------
 #   Project Description / Specification
@@ -96,3 +96,22 @@ while userChoice != "Q":                                                        
 ####  SEE NOTE ABOVE -->  if userChoice != "T" and userChoice != "R" and userChoice != "H" and userChoice != "S" and userChoice != "S" and userChoice != "?" and userChoice !="Q":
     if userChoice not in validChoices:
        print("That is an invalid choice" + "\n")
+#_______________________________________________________________________________________________________
+
+#///Game will start here!!!!
+#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+def Travel(distanceTravelled,Date,Time,Mileage):
+    
+#How many days travelled. 
+#How long/ what distance you have travelled.
+#Displays date...time..etc.
+#Where you are.
+
+distanceTravelled = (random.choice(mileage))
+mileage = (random.choice(0,10))
+
+
+
+
+
